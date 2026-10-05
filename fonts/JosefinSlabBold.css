@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'JosefinSlabBold';
+    src: url('fonts/JosefinSlabBold.eot');
+    src: url('fonts/JosefinSlabBold.eot') format('embedded-opentype'),
+         url('fonts/JosefinSlabBold.woff2') format('woff2'),
+         url('fonts/JosefinSlabBold.woff') format('woff'),
+         url('fonts/JosefinSlabBold.ttf') format('truetype'),
+         url('fonts/JosefinSlabBold.svg#JosefinSlabBold') format('svg');
+}

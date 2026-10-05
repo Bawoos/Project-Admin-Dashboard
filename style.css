@@ -1,0 +1,33 @@
+@import 'lib/modern-normalize.css';
+@font-face {
+  font-family: 'SourceSansProLight';
+  src: url('fonts/SourceSansProLight.eot');
+  src:
+    url('fonts/SourceSansProLight.eot') format('embedded-opentype'),
+    url('fonts/SourceSansProLight.woff2') format('woff2'),
+    url('fonts/SourceSansProLight.woff') format('woff'),
+    url('fonts/SourceSansProLight.ttf') format('truetype'),
+    url('fonts/SourceSansProLight.svg#SourceSansProLight') format('svg');
+}
+
+@font-face {
+  font-family: 'JosefinSlabBold';
+  src: url('fonts/JosefinSlabBold.eot');
+  src:
+    url('fonts/JosefinSlabBold.eot') format('embedded-opentype'),
+    url('fonts/JosefinSlabBold.woff2') format('woff2'),
+    url('fonts/JosefinSlabBold.woff') format('woff'),
+    url('fonts/JosefinSlabBold.ttf') format('truetype'),
+    url('fonts/JosefinSlabBold.svg#JosefinSlabBold') format('svg');
+}
+
+@font-face {
+  font-family: 'cantarellregular';
+  src: url('fonts/cantarellregular.eot');
+  src:
+    url('fonts/cantarellregular.eot') format('embedded-opentype'),
+    url('fonts/cantarellregular.woff2') format('woff2'),
+    url('fonts/cantarellregular.woff') format('woff'),
+    url('fonts/cantarellregular.ttf') format('truetype'),
+    url('fonts/cantarellregular.svg#cantarellregular') format('svg');
+}

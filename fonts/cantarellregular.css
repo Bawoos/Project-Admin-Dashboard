@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'cantarellregular';
+    src: url('fonts/cantarellregular.eot');
+    src: url('fonts/cantarellregular.eot') format('embedded-opentype'),
+         url('fonts/cantarellregular.woff2') format('woff2'),
+         url('fonts/cantarellregular.woff') format('woff'),
+         url('fonts/cantarellregular.ttf') format('truetype'),
+         url('fonts/cantarellregular.svg#cantarellregular') format('svg');
+}
