@@ -43,17 +43,15 @@
 
 .sidebar {
   grid-area: sidebar;
-  font-family: 'JosefinSlabBold', sans-serif;
+  font-family: 'cantarellregular', sans-serif;
   background-color: #cd8d7a;
 }
 
 .navbar {
   color: inherit;
-  width: 100%;
-  height: 100%;
+
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-content: center;
   gap: 1rem;
 }
@@ -61,18 +59,18 @@
 .sidebar-list1,
 .sidebar-list2 {
   list-style: none;
-  margin-bottom: 1rem;
+  margin-bottom: 0.25rem;
 }
 
 .sidebar-list1 li,
 .sidebar-list2 li {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;
   font-size: 0.9rem;
-  font-weight: 600;
+  font-weight: 200;
   color: white;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
 }
 
 .sidebar-list1 > li a,
@@ -269,4 +267,44 @@
   align-items: center;
   gap: 0.75rem;
   font-size: 0.85rem;
+}
+
+/*Adjusting SVGs*/
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.sidebar-profile,
+.sidebar-messages,
+.sidebar-history,
+.sidebar-tasks,
+.sidebar-account-group,
+.sidebar-settings,
+.sidebar-support,
+.sidebar-privacy,
+.sidebar-home {
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.icon-profile,
+.icon-messages,
+.icon-history,
+.icon-tasks,
+.icon-account-group,
+.icon-settings,
+.icon-support,
+.icon-privacy,
+.icon-home {
+  width: 2rem;
+  height: 2rem;
 }
