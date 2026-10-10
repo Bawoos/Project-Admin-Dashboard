@@ -340,3 +340,10 @@
   object-fit: cover;
   border-radius: 50%;
 }
+
+.trending-user-avatar {
+  object-fit: cover;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+}
